@@ -55,3 +55,9 @@ androidTestImplementation "androidx.room:room-testing:$rootProject.roomVersion"
 implementation 'com.squareup.okio:okio:1.14.0'
 implementation 'com.squareup.okhttp3:okhttp:3.10.0'
 ```
+
+## Glide
+```
+implementation 'com.github.bumptech.glide:glide:4.9.0'
+annotationProcessor 'com.github.bumptech.glide:compiler:4.9.0'
+```
