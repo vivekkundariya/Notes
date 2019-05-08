@@ -49,3 +49,9 @@ implementation "androidx.room:room-runtime:$rootProject.roomVersion"
 kapt "androidx.room:room-compiler:$rootProject.roomVersion"
 androidTestImplementation "androidx.room:room-testing:$rootProject.roomVersion"
 ```
+
+## OkHttp
+```
+implementation 'com.squareup.okio:okio:1.14.0'
+implementation 'com.squareup.okhttp3:okhttp:3.10.0'
+```
