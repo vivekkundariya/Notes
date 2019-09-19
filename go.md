@@ -1,7 +1,7 @@
 # Go lang
 
 ## Creator
-- robert Griesemar 
+- Robert Griesemar 
 - Rob Pike
 - Ken Thompson
 
