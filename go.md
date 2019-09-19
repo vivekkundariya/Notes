@@ -10,7 +10,7 @@
 - Python : easy to use but slow
 - Java : Increasingly complex type system
 
-Note: when this language developed there were no councurrency needed but after some time they were patched in (at best).
+Note: when this language developed there were no con-currency needed, mainly built for single threaded system but after some time they were patched in (at best).
 
 ## Go (golang)
 - strong and statically typed language
