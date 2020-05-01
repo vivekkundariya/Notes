@@ -54,16 +54,16 @@
 - [Documentation](https://www.dropwizard.io/en/latest/manual/core.html)
 
 
-# 2 Management
+# 2. Management
 - High output management
 - Measure what matters (about OKR)
 - Our iceberg is melting
 
-# 3 Finance
+# 3. Finance
 - The Millionaire next door
 - Think & grow rich
 
-# 4 Non Tech
+# 4. Non Tech
 - The pragmatic programmer
 - Essentialism: The Disciplined Pursuit of Less
 - Zero to One
@@ -97,7 +97,7 @@
 - The Oz Principle by Craig Hickman, Roger Connors, and Tom Smith
 - Bruce Lee: A Life by Matthew Polly
 
-# 5 Blogs
+# 5. Blogs
 - Knowledge project - Naval
 	- [https://fs.blog/knowledge-project/naval-ravikant/](https://fs.blog/knowledge-project/naval-ravikant/)
 	- [https://fs.blog/wp-content/uploads/2017/02/Naval-Ravikant-TKP.pdf](https://fs.blog/wp-content/uploads/2017/02/Naval-Ravikant-TKP.pdf)
