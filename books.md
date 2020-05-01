@@ -1,8 +1,9 @@
+
 # Curated list of good book
 
-# Tech
+# 1. Tech
 
-## Programming Language
+## 1.1 Programming Language
 - All Head First series - good starter books
 - Java
     - Head First Java
@@ -17,52 +18,52 @@
 	- [Go by Example](https://gobyexample.com/)
 	- [The Go Programming Language](https://www.gopl.io/)
 
-## Testing
+## 1.2 Testing
 - Effective Unit Testing
 
-## Design
+## 1.3 Design
 - Head-first design patterns
 - Domain driven design
 
-## Architecture
+## 1.4 Architecture
 - Service design patterns - Talks in great details on communication strategies in service oriented architecture(SOA)
 
-## Microservices
+## 1.5 Microservices
 - Building microservices
 
-## Distributed systems
+## 1.6 Distributed systems
 - Designing Data intensive applications
 
-## MySQL
+## 1.7 MySQL
 - High performance MySQL
 - [innodb index types](https://dev.mysql.com/doc/refman/5.7/en/innodb-index-types.html)
 - [innodb transaction isolation levels](https://dev.mysql.com/doc/refman/5.7/en/innodb-transaction-isolation-levels.html)
 - [scaling mysql sharding](https://medium.com/pinterest-engineering/sharding-pinterest-how-we-scaled-our-mysql-fleet-3f341e96ca6f)
 - [postgres to mysql](https://eng.uber.com/postgres-to-mysql-migration/)
 
-## Streaming & Data
+## 1.8 Streaming & Data
 - Streaming Systems
 - Kafka - The definitive guide
 - Spark - Definitive guide
 - Stream processing with Apache Flink
 
-## Statistics
+## 1.9 Statistics
 - The Art of Statistics (Learning from Data)
 
-## Drowizard Framework
+## 1.10 Drowizard Framework
 - [Documentation](https://www.dropwizard.io/en/latest/manual/core.html)
 
 
-# Management
+# 2 Management
 - High output management
 - Measure what matters (about OKR)
 - Our iceberg is melting
 
-# Finance
+# 3 Finance
 - The Millionaire next door
 - Think & grow rich
 
-# Non Tech
+# 4 Non Tech
 - The pragmatic programmer
 - Essentialism: The Disciplined Pursuit of Less
 - Zero to One
@@ -96,7 +97,7 @@
 - The Oz Principle by Craig Hickman, Roger Connors, and Tom Smith
 - Bruce Lee: A Life by Matthew Polly
 
-# Blogs
+# 5 Blogs
 - Knowledge project - Naval
 	- [https://fs.blog/knowledge-project/naval-ravikant/](https://fs.blog/knowledge-project/naval-ravikant/)
 	- [https://fs.blog/wp-content/uploads/2017/02/Naval-Ravikant-TKP.pdf](https://fs.blog/wp-content/uploads/2017/02/Naval-Ravikant-TKP.pdf)
@@ -117,6 +118,4 @@
 - [high performance browser networking](https://hpbn.co/)
 - https://www.joelonsoftware.com/2002/11/11/the-law-of-leaky-abstractions/ by Jeff Atwood (StackExchange)
 - Fun read - https://craphound.com/overclocked/Cory_Doctorow_-_Overclocked_-_When_Sysadmins_Ruled_the_Earth.html 
-
-
 
