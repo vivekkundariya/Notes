@@ -96,6 +96,7 @@
 - The No Complaining Rule: Positive Ways to Deal with Negativity at Work by Jon Gordon
 - The Oz Principle by Craig Hickman, Roger Connors, and Tom Smith
 - Bruce Lee: A Life by Matthew Polly
+- Rich Dad Poor Dad by Robert Kiyosaki and Sharon Lechter
 
 # 5. Blogs
 - Knowledge project - Naval
