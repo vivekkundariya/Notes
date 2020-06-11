@@ -17,6 +17,7 @@
 	- [Go in Action](https://github.com/KeKe-Li/book/blob/master/Go/go-in-action.pdf)
 	- [Go by Example](https://gobyexample.com/)
 	- [The Go Programming Language](https://www.gopl.io/)
+	- [GoRun - Medium](https://medium.com/rungo)
 
 ## 1.2 Testing
 - Effective Unit Testing
