@@ -17,6 +17,7 @@
 	- [Go in Action](https://github.com/KeKe-Li/book/blob/master/Go/go-in-action.pdf)
 	- [Go by Example](https://gobyexample.com/)
 	- [The Go Programming Language](https://www.gopl.io/)
+	- [GoRun - Medium](https://medium.com/rungo)
 
 ## 1.2 Testing
 - Effective Unit Testing
@@ -32,10 +33,12 @@
 - Building microservices
 
 ## 1.6 Distributed systems
-- Designing Data intensive applications
+- [Designing Data intensive applications](https://dataintensive.net/)
 
 ## 1.7 MySQL
-- High performance MySQL
+- [High performance MySQL](https://www.highperfmysql.com/)
+- [Indexing Cookbook](http://mysql.rjweb.org/doc.php/index_cookbook_mysql)
+- [Rick ROT - Rule of Thumb](http://mysql.rjweb.org/doc.php/ricksrots)
 - [innodb index types](https://dev.mysql.com/doc/refman/5.7/en/innodb-index-types.html)
 - [innodb transaction isolation levels](https://dev.mysql.com/doc/refman/5.7/en/innodb-transaction-isolation-levels.html)
 - [scaling mysql sharding](https://medium.com/pinterest-engineering/sharding-pinterest-how-we-scaled-our-mysql-fleet-3f341e96ca6f)
@@ -43,6 +46,7 @@
 
 ## 1.8 Streaming & Data
 - Streaming Systems
+- [Database internals](https://www.databass.dev/)
 - Kafka - The definitive guide
 - Spark - Definitive guide
 - Stream processing with Apache Flink
@@ -56,7 +60,7 @@
 
 # 2. Management
 - High output management
-- Measure what matters (about OKR)
+- [Measure what matters](https://www.whatmatters.com/)
 - Our iceberg is melting
 
 # 3. Finance
@@ -96,6 +100,7 @@
 - The No Complaining Rule: Positive Ways to Deal with Negativity at Work by Jon Gordon
 - The Oz Principle by Craig Hickman, Roger Connors, and Tom Smith
 - Bruce Lee: A Life by Matthew Polly
+- Rich Dad Poor Dad by Robert Kiyosaki and Sharon Lechter
 
 # 5. Blogs
 - Knowledge project - Naval
