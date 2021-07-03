@@ -1,4 +1,4 @@
-# leetcode-curation-topical
+# leetcode curated content
 Curation of great Leetcode questions, categorized by topic/concept.
 My criteria for curation is that questions must be *valuable*, and not just difficult for the sake of being difficult.
 
