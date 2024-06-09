@@ -183,4 +183,55 @@ Both types of programs can benefit from concurrent architectures. If a program i
 ### Race Condition and Critical Section
 **Critical section** is any piece of code that has the possibility of being executed concurrently by more than one thread of the application and exposes any shared data or resources used by the application for access.
 
-**Race conditions** happen when threads run through critical sections without thread synchronization. The threads "race" through the critical section to write or read shared resources and depending on the order in which threads finish the "race", the program output changes. 
+**Race conditions** happen when threads run through critical sections without thread synchronization. The threads "race" through the critical section to write or read shared resources and depending on the order in which threads finish the "race", the program output changes.
+
+---
+## Why Multithreading?
+Most common reasons for multithreading are:
+- *Better utilization of a single CPU.*
+
+Multithreading allows better use of computer resources. If one thread is waiting for a network response, another can use the CPU for other tasks.
+
+- *Better utilization of multiple CPUs or CPU cores.*
+
+To fully utilize multiple CPUs or cores, multiple threads are necessary. A single thread can only use one CPU or core at a time, so multiple threads help distribute the workload across all available CPUs/cores.
+
+
+- *Better user experience with regards to responsiveness.*
+
+For example, clicking a button in a GUI that sends a network request should not be handled by the same thread updating the GUI. Doing so can cause the GUI to "hang" while waiting for the response. Instead, using a background thread keeps the GUI responsive to other user interactions.
+
+- *Better user experience with regards to fairness.*
+
+For example, a server with a single thread handling client requests can cause delays if one request takes too long. By assigning each request to its own thread, no single task monopolizes the CPU, leading to fairer processing times.
+
+---
+
+## Multithreading is hard
+
+- **Performance Boost**: Multithreading can enhance performance for certain programs.
+- **Complexity**: More challenging than multitasking due to simultaneous memory access within the same program.
+- **Concurrency Issues**: Can result in errors not seen in single-threaded programs, especially on multi-core or multi-CPU systems.
+- **Simultaneous Execution**: Modern CPUs allow separate threads to execute simultaneously, increasing complexity.
+- **Memory Access Conflicts**:
+    - Threads may read/write the same memory location at the same time.
+    - Potential outcomes: old value, new value, or a mix of both.
+- **Unpredictable Behavior**: Without proper precautions, thread interactions can be unpredictable and change over time.
+- **Developer Responsibility**: Developers must learn to manage thread access to shared resources (memory, files, databases).
+
+### Common Multithreading Issues
+
+1. **Shared Mutable State Issues**:
+    - **Race Conditions**: Multiple threads accessing shared data simultaneously can lead to unpredictable results.
+    - **Invisible Writes**: Changes made by one thread may not be visible to others immediately.
+    - **Congestion**: Overuse of shared resources can slow down the system.
+    - **Deadlock**: Two or more threads wait indefinitely for each other to release resources.
+    - **Nested Monitor Lockout**: Complications arising from threads holding multiple locks.
+    - **Starvation**: Threads may be perpetually denied necessary resources.
+    - **Slipped Conditions**: Timing issues causing conditional checks to fail unexpectedly.
+    - **Missed Signals**: Threads may miss notifications due to timing issues.
+
+2. **No Shared Mutable State Concurrency**:
+    - **Separate State Concurrency**: Each thread operates on its own separate data.
+    - **Functional Parallelism**: Breaking down tasks into functions that run in parallel without shared state.
+    - **Parallel Pipelines**: Different stages of a process run in parallel, with each stage operating independently.
