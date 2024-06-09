@@ -1,6 +1,7 @@
 # AWS re:Invent 2023 Tech Talk on Building Observability to Increase Resiliency (COP343): [link](https://www.youtube.com/watch?v=MARiKxvrdmc&ab_channel=AWSEvents)
 
 ## 1. Diagnose Issues:
+<<<<<<< HEAD
 - use dimensionality(attributes like website, webpage, api, instances, AZ etc) to compute the right metrics(measurements like latency, error, request, etc).
 - set alarms at correct dimensionality and metrics so that it triggers a observability notification in case of outage.
 - combine many alarms signals together to avoid fatigue or noise sometime. 
@@ -14,6 +15,21 @@
 - propagate the incoming trace context to every outbound client call you make to every dependency.
 - enable collection of trace segment from all services and from your apps.
 - user service maps derived from trace to triangulate the failing dependency during incidents.
+=======
+- Use dimensionality(attributes like website, webpage, api, instances, AZ etc) to compute the right metrics(measurements like latency, error, request, etc).
+- Set alarms at correct dimensionality and metrics so that it triggers a observability notification in case of outage.
+- Combine many alarms signals together to avoid fatigue or noise sometime. 
+  - It becomes important to create the composite alarm and alarm tree.
+- Measure things which can fail separately, separately.
+- Find patterns in high cardinality metrics.
+- Navigate distributed system via tracing.
+
+## 2. 4 Failure modes:
+### Bad dependency
+- Propagate the incoming trace context to every outbound client call you make to every dependency.
+- Enable collection of trace segment from all services and from your apps.
+- Use service maps derived from trace to triangulate the failing dependency during incidents.
+>>>>>>> 076e2cc (fix typos)
 
 ### Bad component:
 - Health checks - Split key application health metrics on separate dimensions for each infrastructure boundary like ec2, AZ, etc.
