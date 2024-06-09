@@ -57,15 +57,18 @@
 ## 1.10 Drowizard Framework
 - [Documentation](https://www.dropwizard.io/en/latest/manual/core.html)
 
-
+---
 # 2. Management
 - High output management
 - [Measure what matters](https://www.whatmatters.com/)
 - Our iceberg is melting
 
+---
 # 3. Finance
 - The Millionaire next door
 - Think & grow rich
+
+---
 
 # 4. Non Tech
 - The pragmatic programmer
@@ -102,6 +105,8 @@
 - Bruce Lee: A Life by Matthew Polly
 - Rich Dad Poor Dad by Robert Kiyosaki and Sharon Lechter
 
+---
+
 # 5. Blogs
 - Knowledge project - Naval
 	- [https://fs.blog/knowledge-project/naval-ravikant/](https://fs.blog/knowledge-project/naval-ravikant/)
@@ -116,7 +121,6 @@
     - https://www.joelonsoftware.com/  - Joel Spolsky (Trello, StackExchange etc)
     - https://news.ycombinator.com/
     - https://blog.codinghorror.com/
-
 - https://speakerdeck.com/swanandp/the-well-rounded-engineer
 - https://www.newyorker.com/magazine/2018/12/10/the-friendship-that-made-google-huge
 - https://mechanical-sympathy.blogspot.com/2011/07/memory-barriersfences.html
