@@ -235,3 +235,6 @@ For example, a server with a single thread handling client requests can cause de
     - **Separate State Concurrency**: Each thread operates on its own separate data.
     - **Functional Parallelism**: Breaking down tasks into functions that run in parallel without shared state.
     - **Parallel Pipelines**: Different stages of a process run in parallel, with each stage operating independently.
+<br>
+> [!TIP]
+> Going from a singlethreaded to a multithreaded application doesn't just provide benefits. It also has some costs. Don't just multithread-enable an application just because you can. You should have a well-founded expectation that the benefits gained by doing so are larger than the costs. When in doubt, try measuring the performance or responsiveness of the application, instead of just guessing.
